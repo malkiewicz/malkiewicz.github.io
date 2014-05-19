@@ -1,0 +1,105 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Roboto:400,700|Oswald:400,700&subset=latin,latin-ext);
+
+body {
+    background: #fff;
+    font-family: Georgia, 'Times', serif;
+    text-align: center;
+    font-size: 16px
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0
+}
+a, a:visited {
+    /*color:#000;*/
+    text-decoration: none
+}
+a:hover, a:active {
+    /*text-decoration: underline*/
+}
+.clear {
+    clear: both;
+    height: 0.01rem;
+    line-height: 0.01rem;
+    margin: 0;
+    padding: 0
+}
+nav ul {
+    list-style: none;
+    padding: 0
+}
+nav ul li {
+    margin: 0;
+}
+header {
+    background-color: #000;
+    background-image: url('img/beans.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 260px;
+    padding-top: 1.5rem;
+}
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.2em;
+    margin: 0 auto 2rem auto;
+    text-shadow: 0 0 0.2rem #000
+}
+header h1 span {
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 400;
+    color: #cfbc9a;
+    border-bottom: 5px dotted #cfbc9a
+}
+header nav {
+    width: 100%;
+    height: 34px;
+    background-color: #230b03;
+}
+header nav ul {
+    width: 340px;
+    margin: 0 auto
+}
+header nav ul li {
+    display: inline-block;
+    float: left;
+}
+header nav ul li a {
+    display: block;
+    color: #cfbc9a;
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+}
+header nav ul li a:hover, header nav ul li a:active {
+    background-color: #cfbc9a;
+    color: #000;
+}
+article {
+    width: 860px;
+    margin: 0 auto
+}
+article section {
+    float: left;
+    width: 40%;
+    margin: 2.2rem 5%
+}
+article h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #230b03;
+    margin-bottom: 0.5rem
+}
+article p {
+    margin-bottom: 0.5rem
+}
+footer {
+    background-color: #230b03;
+    padding-top: 2rem;
+    padding-bottom: 2rem
+}
+footer p {
+    color: #cfbc9a;
+}
