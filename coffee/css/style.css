@@ -60,7 +60,7 @@ header nav {
     background-color: #230b03;
 }
 header nav ul {
-    width: 340px;
+    width: 360px;
     margin: 0 auto
 }
 header nav ul li {
@@ -83,8 +83,8 @@ article {
 }
 article section {
     float: left;
-    width: 40%;
-    margin: 2.2rem 5%
+    width: 36%;
+    margin: 2.2rem 7%
 }
 article h2 {
     font-size: 1.2rem;
