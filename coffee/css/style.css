@@ -60,12 +60,14 @@ header nav {
     background-color: #230b03;
 }
 header nav ul {
-    width: 360px;
-    margin: 0 auto
+/*    width: 360px;
+    margin: 0 auto*/
+    text-align: center
 }
 header nav ul li {
     display: inline-block;
-    float: left;
+    /*float: left*/
+    text-align: center
 }
 header nav ul li a {
     display: block;
