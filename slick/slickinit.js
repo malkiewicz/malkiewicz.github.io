@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.your-class').slick({
+    $('.jajebe').slick({
         setting-name: setting-value
     });
 });
