@@ -1,12 +1,37 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,400italic,600italic,700,700italic&subset=latin,latin-ext);
 
-body > .row {
-    position: relative;
-    top: 5.5rem
+.contain-to-grid {
+    box-shadow: 0 0 0.3rem #ccc
 }
-.title-area .logo {
-    padding: 4px 20px 0 20px
+.name {
+    padding: 4px 20px 0 20px;
 }
-h2 {
-    text-transform: uppercase
+a.logo {
+    display: block;
+    width: 38px;
+    height: 37px;
+    background: url('../img/logo.png') 0 0 no-repeat;
+
+    &:hover {
+        background: url('../img/logo.png') 0 -37px no-repeat;
+    }
+}
+#about {
+    padding-top: 5rem;
+
+    p {
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+}
+#skills {
+    padding-top: 4rem;
+    
+    .pricing-table {
+        box-shadow: 0 0 0.3rem #ccc;
+
+        .bullet-item {
+            text-transform: uppercase
+        }    
+    }
 }
