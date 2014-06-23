@@ -8,7 +8,7 @@ $topbar-bg-color: #fff !default;
 $topbar-bg: $topbar-bg-color !default;
 
 // Height and margin
-$topbar-height: 65px !default;
+$topbar-height: 45px !default;
 $topbar-margin-bottom: 0 !default;
 
 // Control Input height for top bar
@@ -31,7 +31,7 @@ $topbar-link-color: #4d4d4d !default;
 $topbar-link-color-hover: #1a1a1a !default;
 $topbar-link-color-active: #1a1a1a !default;
 $topbar-link-weight: normal !default;
-$topbar-link-font-size: em-calc(13) !default;
+$topbar-link-font-size: em-calc(21) !default;
 $topbar-link-hover-lightness: 100% !default; // Darken by 30%
 $topbar-link-bg-hover: adjust-color($topbar-dropdown-bg, $lightness: $topbar-link-hover-lightness) !default;
 $topbar-link-bg-active: darken($topbar-bg-color, 3%) !default;
@@ -447,7 +447,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
 
       .has-dropdown {
 
-        @if($topbar-arrows){
+        @if ($topbar-arrows){
 
           & > a {
             padding-#{$opposite-direction}: $topbar-height / 3 + 20 !important;
