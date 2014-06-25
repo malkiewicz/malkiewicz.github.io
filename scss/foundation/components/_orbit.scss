@@ -9,7 +9,7 @@
 $include-html-orbit-classes: $include-html-classes !default;
 
 // We use these to control the caption styles
-$orbit-container-bg: none !default;
+$orbit-container-bg: transparent !default;
 $orbit-caption-bg: rgba(51,51,51, 0.8) !default;
 $orbit-caption-font-color: #fff !default;
 $orbit-caption-font-size: rem-calc(14) !default;
@@ -18,9 +18,11 @@ $orbit-caption-padding: rem-calc(10 14) !default;
 $orbit-caption-height: auto !default;
 
 // We use these to control the left/right nav styles
-$orbit-nav-bg: transparent !default;
+/*$orbit-nav-bg: transparent !default;*/
+$orbit-nav-bg: rgba(0,0,0,0.3) !default;
 $orbit-nav-bg-hover: rgba(0,0,0,0.3) !default;
-$orbit-nav-arrow-color: #fff !default;
+/*$orbit-nav-arrow-color: #fff !default;*/
+$orbit-nav-arrow-color: rgba(255,255,255,0.3) !default;
 $orbit-nav-arrow-color-hover: #fff !default;
 
 // We use these to control the timer styles
